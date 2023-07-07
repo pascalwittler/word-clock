@@ -13,3 +13,47 @@ body {
   overflow: hidden;
   background-color: #111111;
 }
+
+html {
+  font-family: 'Fira Sans';
+  font-size: 96px;
+  color: #222222;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-basis: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 240px;
+}
+
+.minutes,
+.hours {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+.active {
+  color: #ffffff;
+}
