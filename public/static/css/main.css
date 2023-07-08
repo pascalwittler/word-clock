@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  font-family: 'Fira Sans';
+  font-family: 'Fira Sans', sans-serif;
   font-size: 5vw;
   color: #222222;
 }
@@ -73,4 +73,11 @@ ul {
   .row {
     gap: 6vh;
   }
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fira-sans-v17-latin-regular.woff2') format('woff2');
 }
